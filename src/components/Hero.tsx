@@ -70,13 +70,13 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative lg:ml-auto"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-2 hover:rotate-0 transition-transform duration-500">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
-                src="/hero_illustration.png" 
-                alt="Entregador de moto dinâmico" 
+                src={`${import.meta.env.BASE_URL}hero_moto.png`} 
+                alt="Entregador de moto profissional" 
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-brand-primary/20 to-transparent mix-blend-overlay"></div>
+
             </div>
             
             {/* Floating Badge */}
